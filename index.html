@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <div class="division">
+        <p style="text-align: center;"><b> ENTER YOUR ALL DETAILS FOR SELECTION</b></p>
+
+        <form>
+            <label> USERNAME : </label>
+            <input type="text" id="name"><br>
+            
+            <span id="nameerror"></span><br><br>
+
+            <label> AGE: </label>
+            <input type="text" maxlength="2" id="age" ><br>
+            <span id="ageerror"></span><br><br>
+
+            <label> E MAIL : </label>
+            <input type="text" id="email"><br>
+            <span id="mailerror"></span><br><br>
+
+            <label> NUMBER 1 : </label>
+            <input type="text" maxlength="10" id="number1"><br>
+            <span id="numerror"></span><br><br>
+
+            <label> NUMBER 2 : </label>
+            <input type="text" maxlength="10" id="number2" ><br>
+            <span id="numerror2"></span><br><br>
+
+            <label> HEIGHT :</label>
+            <input type="text" id="height"><br>
+            <span id="highterror"></span><br><br>
+
+
+            <label> WEIGHT</label>
+            <input type="text" id="weight"><br>
+            <span id="wighterror"></span><br><br>
+
+
+            <label> ADDRESS : </label>
+            <input type="text" id="address" maxlength="30" ><br>
+            <span id="addresserror"></span><br><br>
+
+            <label> DISTRICT : </label>
+            <input type="text" id="dist"><br>
+            <span id="derror"></span><br><br>
+
+
+            <label> PINCODE : </label>
+            <input type="text" id="b" maxlength="6"><br>
+            <span id="berror"></span><br><br>
+
+            <button type="submit" onclick="go(event)" id="wlast"> sumbit</button>
+
+            <button id="wlast">cancel</button>
+            
+
+        </form>
+        <p id="successMsg" style="text-align: center;"><b></b></p>
+        <br><br><br><br>
+
+        
+    </div>
+  
+
+</body>
+
+</html>

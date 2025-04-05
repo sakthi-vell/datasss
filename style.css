@@ -1,0 +1,109 @@
+body {
+    background-color: blanchedalmond;
+}
+#b,#address,#dist,#number1,#number2{
+    margin-left: 5.5%;
+}
+#height,#weight{
+   margin-left: 8%;
+}
+#name{
+    margin-left: 5%;
+}
+#email{
+    margin-left: 9%;
+}
+#age{
+      margin-left: 13%;
+}
+
+.division {
+    /* border: 2px solid red; */
+    width: 80%;
+    transform: translate(10%, 0);
+}
+
+form {
+    border: 2px solid black;
+    width: 80%;
+    margin-left: 5%;
+    /* margin-top: 5%; */
+    border-radius: 5px;
+    padding: 3%;
+    box-shadow: 2px 4px 6px;
+}
+@media  screen and (max-width:768px){
+
+#height,#weight{
+   margin-left: 8%;
+}
+#name{
+    margin-left: 5%;
+}
+#age{
+      margin-left: 16%;
+}
+#email{
+    margin-left: 10%;
+}
+}
+
+@media  screen and (max-width:660px){
+
+    #b,#address,#dist,#number1,#number2{
+    margin-left: 7.5%;
+}
+#height,#weight{
+   margin-left: 12%;
+}
+/* #name{
+    margin-left: 5%;
+} */
+#email{
+    margin-left: 14%;
+}
+#age{
+      margin-left: 20%;
+}}
+@media  screen and (max-width:660px){
+    input{
+        width: 200px;
+    }
+}
+@media  screen and (max-width:530px){
+    input{
+        width: 150px;
+    }
+}
+@media  screen and (max-width:445px){
+    input{
+        width: 130px;
+    }
+    label{
+        font-size: 13px;
+    }
+}
+@media  screen and (max-width:380px){
+    input{
+        width: 120px;
+    }
+    label{
+        font-size: 13px;
+    }
+    #b,#address,#dist,#number1,#number2{
+    margin-left: 0.5%;
+}
+    #height,#weight{
+   margin-left: 10%;
+}
+#name{
+    margin-left: 0.5%;
+}
+#age{
+      margin-left: 16%;
+}
+#email{
+    margin-left:11%;
+}
+
+}
