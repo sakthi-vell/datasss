@@ -94,7 +94,7 @@ function go(event) {
     // address
     let ADDRESS = document.getElementById("address").value;
     let dd = document.getElementById("addresserror");
-    if (ADDRESS !== " " && /^[A-Za-z/s]+$/.test(ADDRESS)) {
+    if (ADDRESS !== " " && /^[A-Za-z0-9/s]+$/.test(ADDRESS)) {
 
         dd.textContent = "   ";
         dd.style.color = "black";
@@ -126,9 +126,9 @@ function go(event) {
     //   district
     let vel = ["tirupur", "coimbatore", "erode", "trichy", "madurai", "chennai", "salem"];
 
-    let DISTRICT = document.getElementById("dist").value;
+    let DISTRICT = document.getElementById("dist").value.toLowerCase();
     let ff = document.getElementById("derror");
-    if (vel.includes(DISTRICT)) {
+    if (vel.includes(DISTRICT)  ) {
         ff.textContent = ""
         ff.style.color = "green"
     }
